@@ -1,5 +1,55 @@
  body {
+    background-image: linear-gradient(to right, #20292f   , #161c20 );
     margin: 50px;
     font-family: Helvetica, sans-serif;
     font-size: 150%;
 }
+
+  h2{
+    color: white;
+    width: 30%;
+    text-align:center;
+    border-radius: 6px;
+    font-family:  Georgia, 'Times New Roman', Times, serif;
+    font-size: larger;
+  }
+
+  div{
+    background-image: linear-gradient(to right, #1c2e4a , #152238);
+    width:1000px;
+    border-radius: 50px;
+    text-align: center;
+    padding-top:  1em;
+    padding-bottom: 1em;
+    margin-bottom: 15px;
+  }
+
+  div#displayAverage{
+    background-image: linear-gradient(to right, #1c2e4a , #152238);
+    border-radius: 50px;
+    color: white; 
+  }
+
+  input[type=text] {
+    text-align: center;
+    margin: 10px;
+    border-color: rgba(0, 0, 0, .15);
+    background-color: #d3d3d3;
+    font-size: 16px;
+    border-radius: 10px;
+  }
+  input:focus {
+    background-color:cornsilk;
+}
+
+  button{
+    color: white;
+    outline: 0px;
+    height: 35px;
+    width: 120px;
+    border-radius: 10px;
+    background-color: #313e47;
+    border: 2px solid #2b373f;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+  }
+
