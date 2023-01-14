@@ -1,23 +1,29 @@
 <!DOCTYPE html>
 <html>
+    <head>
+        <meta charset="utf-8">
+        <title>Average Calculator</title>
 
-<head>
-    <meta charset="utf-8">
-    <title>starter code</title>
-<link rel="stylesheet" type="text/css" href="site.css">
-</head>
+        <!-- Link CSS -->
+        <link rel="stylesheet" type="text/css" href="site.css">
+    </head>
+    <body>
+        <!-- Header -->
+        <h2>Average Calculator</h2>
 
-<body>
-<h2>starter project</h2>
+        <!-- Calculator Inputs and Button-->
+        <div>
+            <input type="text" id="input1"><br>
+            <input type="text" id="input2"><br>
+            <input type="text" id="input3"><br>
+        
+            <button type="button" id="average">Button</button><br>
+        </div>
 
-<button type="button" id="button1">Button</button>
-<div>
-    <br />
-    <input type="text" val="starting value" text="hello" id="textbox1" />
-    <br />
-</div>
-
-<script src="main.js"></script>
-</body>
-
+        <!-- Display Average -->
+        <div id="displayAverage"></div>
+        
+        <!-- Link JS with calculateAverage() Funcation -->
+        <script src="main.js"></script>
+    </body>
 </html>
